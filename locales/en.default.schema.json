@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "settings_schema": {
     "global": {
@@ -395,21 +404,13 @@
       },
       "heading_size": {
         "label": "Heading size",
-        "options__1": {
-          "label": "Small"
-        },
-        "options__2": {
-          "label": "Medium"
-        },
-        "options__3": {
-          "label": "Large"
-        },
-        "options__4": {
-          "label": "Extra large"
-        },
-        "options__5": {
-          "label": "Extra extra large"
-        }
+        "options__1": {"label": "X-Small"},
+        "options__2": {"label": "Small"},
+        "options__3": {"label": "Medium"},
+        "options__4": {"label": "Large"},
+        "options__5": {"label": "X-Large"},
+        "options__6": {"label": "XX-Large"},
+        "options__7": {"label": "Full Width"}
       },
       "image_shape": {
         "options__1": {
@@ -437,6 +438,16 @@
           "label": "Round"
         },
         "label": "Image shape"
+      },
+      "image_size": {
+        "label": "Image size",
+        "options__1": {"label": "X-Small"},
+        "options__2": {"label": "Small"},
+        "options__3": {"label": "Medium"},
+        "options__4": {"label": "Large"},
+        "options__5": {"label": "X-Large"},
+        "options__6": {"label": "XX-Large"},
+        "options__7": {"label": "Full Width"}
       }
     },
     "announcement-bar": {
@@ -931,7 +942,7 @@
               "default": "Share"
             },
             "featured_image_info": {
-              "content": "If you include a link in social media posts, the page’s featured image will be shown as the preview image. [Learn more](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)"
+              "content": "If you include a link in social media posts, the page's featured image will be shown as the preview image. [Learn more](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)"
             },
             "title_info": {
               "content": "A store title and description are included with the preview image. [Learn more](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
@@ -968,7 +979,7 @@
           }
         },
         "hide_variants": {
-          "label": "Hide unselected variants’ media on desktop"
+          "label": "Hide unselected variants' media on desktop"
         },
         "enable_video_looping": {
           "label": "Loop video"
@@ -1176,8 +1187,14 @@
           },
           "options__4": {
             "label": "Large"
-          }
           },
+          "options__5": {
+            "label": "Extra Large"
+          },
+          "options__6": {
+            "label": "Gigantic"
+          }
+        },
         "content": {
           "content": "Content"
         },
